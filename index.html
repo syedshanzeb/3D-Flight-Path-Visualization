@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Flight Path Visualization</title>
+  <!-- ArcGIS CSS for styling -->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.31/esri/themes/light/main.css">
+  <style>
+    html, body, #viewDiv {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    /* Forcefully hide Esri attribution */
+    .esri-widget--attribution {
+      display: none !important;
+    }
+    .esri-widget--container {
+      visibility: hidden !important;
+    }
+
+    /* Footer styling */
+    footer {
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+  </style>
+  <!-- ArcGIS JavaScript SDK -->
+  <script src="https://js.arcgis.com/4.31/"></script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+  
+  <!-- Footer Section -->
+  <footer>
+    Britoken
+  </footer>
+
+  <script src="map-setup.js"></script>
+</body>
+</html>
