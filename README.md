@@ -1,5 +1,5 @@
 # 3D Flight Path Visualization
- 3D Flight Path Visualization using stelliate imagery with various basemaps
+ 3D Flight Path Visualization using sattelite imagery with various basemaps
 Use [+][-] buttons to zoom in and out
 Use the Move button to move around.
 Use the Pan and Rotate Button to change camera.
